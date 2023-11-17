@@ -2,7 +2,6 @@ import pytest
 
 from dvc.testing.scripts import _add_script
 
-
 @pytest.fixture
 def append_foo_script(tmp_dir):
     return _add_script(
