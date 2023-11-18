@@ -1,3 +1,0 @@
-[submodule "dvc_Package/dvc"]
-	path = dvc_Package/dvc
-	url = https://github.com/JohnnyLai92/dvc.git

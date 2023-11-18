@@ -1,0 +1,8 @@
+stages:
+  preprocess:
+    cmd: python dvc/preprocess.py dvc/data/data.txt dvc/data/processed.txt
+    deps:
+      - dvc/preprocess.py
+      - dvc/data/data.txt
+    outs:
+      - dvc/data/processed.txt
