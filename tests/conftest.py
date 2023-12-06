@@ -52,13 +52,11 @@ def reset_loglevel(request, caplog):
     else:
         yield
 
-
 @pytest.fixture(autouse=True)
 def enable_ui():
     from dvc.ui import ui
 
     ui.enable()
-
 
 @pytest.fixture(autouse=True)
 def clean_repos():
